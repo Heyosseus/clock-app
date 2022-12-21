@@ -1,0 +1,54 @@
+.quote {
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  line-height: 22px;
+  /* width: 290px; */
+  height: 86px;
+}
+
+.author {
+  font-weight: bold;
+  color: white;
+  
+  
+}
+.content{
+  display: flex;
+  /* padding: 26px; */
+  height: 20px;
+  width: 320px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 26px;
+  justify-content: space-around;
+  height: 180px;
+}
+
+.refresh{
+  height: 22px;
+  margin-left: 12px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 600px) {
+  .container{
+    padding: 105px 165px ;
+   
+  }
+  .content{
+    width: 573px;
+    height: 106px;
+    line-height: 82px;
+  }
+  .quote{
+    font-size: 18px;
+    width: 573px;
+    line-height: 28px;
+  }
+  .refresh{
+    margin-left: 6px;
+  }
+}

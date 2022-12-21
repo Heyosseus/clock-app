@@ -1,0 +1,61 @@
+.button{
+    width: 115px;
+    height: 39px;
+    border-radius: 28px;
+    border: none;
+    background: white;
+    color: #303030;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    margin: 26px;
+}
+
+.circle{
+    width: 32px;
+    height: 32px;
+    background: #303030;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 34px;
+}
+.up{
+    width: 32px;
+    height: 32px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .container{
+    position: absolute;
+    right: 30px;
+    bottom: 90px;
+  } 
+  .button{
+    width: 146px;
+    height: 56px;
+    font-size: 16px;
+  }
+  .circle{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 5px;
+  }
+  .up{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+}
