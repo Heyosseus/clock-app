@@ -35,6 +35,7 @@ const Time: React.FC<Props> = ({time, setTime}) => {
         </div>
       )}
       <div className={style.timeContent}>{time}<span>UTC</span></div>
+      <h3 className={style.location}>In Tbilisi, Georgia</h3>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .container{
-    margin-top: 155px;
+    margin-top: 185px;
 }
 
 .timeContent {
@@ -31,6 +31,18 @@ span{
     font-weight: 400;
 }
 
+.location{
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 3px;
+  line-height: 28px;
+  font-size: 15px;
+  width:280px;
+  height: 28px;
+  padding: 26px;
+}
+
 @media screen and (min-width: 600px) {
   .container{
     padding: 125px ;
@@ -48,5 +60,15 @@ span{
   }
   span{
     font-size: 26px;
+  }
+  .location{
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 28px;
+  font-size: 24px;
+  width:220px;
+  height: 28px;
+  padding: 56px 44px;
+  width: 450px;
   }
 }

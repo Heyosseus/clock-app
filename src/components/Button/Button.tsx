@@ -10,22 +10,21 @@ function Button() {
   };
   return (
     <div className={btn.container}>
-        {isShown ?
-      <div className={btn.button} onClick={showHandler}>
-        <p>More</p>
-        <div className={btn.circle}>
-          <img src={down} alt="arrow down" className={btn.down} />
+      {isShown ? (
+        <div className={btn.button} onClick={showHandler}>
+          <p>More</p>
+          <div className={btn.circle}>
+            <img src={down} alt="arrow down" className={btn.down} />
+          </div>
         </div>
-      </div> :
-      <div className={btn.button} onClick={showHandler}>
-        <p>Less</p>
-        <div>
-          <img src={up} alt="arrow up" className={btn.up} />
+      ) : (
+        <div className={btn.button} onClick={showHandler}>
+          <p>Less</p>
+          <div>
+            <img src={up} alt="arrow up" className={btn.up} />
+          </div>
         </div>
-      </div>
-}
-
-      
+      )}
     </div>
   );
 }

@@ -1,0 +1,72 @@
+.container {
+  width: 100vw;
+  height: 256px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20.3871px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 26px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+h4 {
+  font-size: 10px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  color: #303030;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.timezone {
+  display: flex;
+  justify-content: space-between;
+}
+.year {
+  display: flex;
+  justify-content: space-between;
+}
+.week {
+  display: flex;
+  justify-content: space-between;
+}
+.weekNumber {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-left: 146px;
+    
+    width: 100vw;
+  }
+  .timezone {
+    display: grid;
+  }
+  .year {
+    display: grid;
+  }
+  .week {
+    display: grid;
+  }
+  .weekNumber {
+    display: grid;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 56px;
+  }
+}

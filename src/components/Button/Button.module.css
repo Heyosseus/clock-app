@@ -38,8 +38,8 @@
 @media screen and (min-width: 600px) {
   .container{
     position: absolute;
-    right: 30px;
-    bottom: 90px;
+    right: 40px;
+    bottom: 140px;
   } 
   .button{
     width: 146px;

@@ -4,6 +4,8 @@
   height: 100vh;
   background-size: cover;
   mix-blend-mode: normal;
+  overflow-x: hidden;
+
 }
 @media screen and (min-width: 600px) {
   .container {
@@ -12,6 +14,7 @@
     width: 100vw;
     height: 100vh;
     mix-blend-mode: normal;
+    overflow-x: hidden;
   }
 }
 .containerDay {
@@ -20,6 +23,7 @@
   height: 100vh;
   background-size: cover;
   mix-blend-mode: darken;
+  overflow-x: hidden;
 }
 @media screen and (min-width: 600px) {
   .containerDay {
@@ -28,6 +32,6 @@
     width: 100vw;
     height: 100vh;
     mix-blend-mode: normal;
-    
+    overflow-x: hidden;
   }
 }
