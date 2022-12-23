@@ -12,7 +12,7 @@ function App() {
 
 
   const presentTime = new Date().getHours();
-  return presentTime > 5 && presentTime <= 18 ? (
+  return presentTime > 5 && presentTime < 18 ? (
     <div className={style.containerDay}>
       <QuotesContainer
         quote={quote}
@@ -22,7 +22,7 @@ function App() {
       />
       <Time time={time} setTime={setTime} />
       <Button />
-      <Info />
+      {/* <Info /> */}
     </div>
   ) : (
     <div className={style.container}>
@@ -34,7 +34,7 @@ function App() {
       />
       <Time time={time} setTime={setTime} />
       <Button />
-      <Info />
+      {/* <Info /> */}
     </div>
   );
 
