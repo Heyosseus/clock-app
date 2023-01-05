@@ -40,11 +40,13 @@
     position: absolute;
     right: 40px;
     bottom: 140px;
+    z-index: 1;
   } 
   .button{
     width: 146px;
     height: 56px;
     font-size: 16px;
+    z-index: 11;
   }
   .circle{
     width: 40px;
