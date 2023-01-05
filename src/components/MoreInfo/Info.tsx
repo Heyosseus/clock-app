@@ -8,7 +8,7 @@ export default function Info() {
   const [week, setWeek] = useState<number>();
 
   useEffect(() => {
-    fetch('http://worldtimeapi.org/api/timezone/Asia/Tbilisi')
+    fetch('https://worldtimeapi.org/api/timezone/Asia/Tbilisi')
       .then((res) => res.json())
       .then((res) => {
         setTimezone(res.timezone);
